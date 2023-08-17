@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>OLAP_do_an_kho</Database>
+    <Server>LAPTOP-0E0V0P2G\CLIENT1</Server>
+    <ConnectionString>Data Source=LAPTOP-0E0V0P2G\CLIENT1;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>FvZQjzDzz32VyJA6Vv6a2CpFPqk=5/16/2023 10:52:24 PM5/16/2023 10:52:24 PM</TimeStamp>
+        <ID>
+          <String>Global Store Analysis</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>X3Dds4V6iTl0bPYDqHNhuGSmWXI=5/16/2023 10:52:58 PM5/16/2023 10:52:58 PM</TimeStamp>
+        <ID>
+          <String>SuperStores</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Ua+OuRbUyI4WVXOL/lR2gsW2FtI=5/18/2023 9:25:08 AM5/16/2023 10:53:08 PM</TimeStamp>
+        <ID>
+          <String>Dim Time</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Dq38YudzxclnSPWWp8qV3yT5xpA=5/18/2023 9:25:08 AM5/16/2023 10:53:08 PM</TimeStamp>
+        <ID>
+          <String>Dim Location</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>cyrw9VT+vugVWOdVhBOV0Z8U4s0=5/18/2023 9:25:08 AM5/16/2023 10:53:08 PM</TimeStamp>
+        <ID>
+          <String>Dim Product</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>zzRH7muGd1Abh6/a8eanTwb6H70=5/18/2023 9:18:38 AM5/16/2023 10:53:08 PM</TimeStamp>
+        <ID>
+          <String>Dim Customers</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>MiTxAxajjYPIoSM3LBiRgZrLWgA=5/18/2023 9:25:08 AM5/16/2023 10:53:08 PM</TimeStamp>
+        <ID>
+          <String>Fact Orders</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>aVuTc8Za3T/vfACOee58aSnWo8Q=5/18/2023 9:25:08 AM5/16/2023 10:53:08 PM3EOSRr2w591r/TPV6cybBv5ba94=5/16/2023 10:53:08 PM5/16/2023 10:53:08 PM</TimeStamp>
+        <ID>
+          <String>SuperStores</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>b5wy2b5iUtHDJEMuiV1bIWt3jBk=5/10/2023 11:18:26 PM5/10/2023 11:18:25 PM</TimeStamp>
+      <ID>
+        <String>OLAP_do_an_kho</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2023-05-23T13:48:24.926667Z</LastDeployed>
+</DeploymentSnapshot>
